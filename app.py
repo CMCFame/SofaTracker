@@ -4,12 +4,15 @@ Quiniela Tracker Streamlit Application
 Main application for tracking and predicting soccer match results using ScraperFC.
 """
 
-import streamlit as st
+pythonimport streamlit as st
 import pandas as pd
 import os
 import sys
 
-# Ensure ScraperFC can be imported
+# Disable Botasaurus library initialization
+import os
+os.environ['BOTASAURUS_REQUESTS_MODULE'] = '1'
+
 try:
     import ScraperFC as sfc
 except ImportError as e:

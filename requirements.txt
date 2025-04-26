@@ -1,5 +1,5 @@
 streamlit
 pandas
-requests
-python-dateutil
-ScraperFC
+ScraperFC==3.3.0
+botasaurus==4.0.85
+botasaurus-requests==4.0.38
